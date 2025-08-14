@@ -2805,7 +2805,12 @@
   - type: MeleeChemicalInjector
     transferAmount: 0.75
     solution: melee
-  - type: ReplacementAccent
+  - type: LanguageKnowledge # Einstein Engines - Language
+    # once upstream hits (the one that has languages) - uncomment.
+    # speaks:
+    # - Xeno
+    # understands:
+    #- Xeno
     accent: xeno
   - type: InteractionPopup
     successChance: 0.5
@@ -2857,7 +2862,7 @@
     color: "#808080"
     activateSound: null
     deactivateSound: null
-  - type: CollectiveMind # Slon - collective mind
+  - type: CollectiveMind # Slon
     defaultChannel: Spidermind
     respectAccents: true
     channels:
