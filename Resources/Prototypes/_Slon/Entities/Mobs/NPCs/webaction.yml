@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionWebPassage
-  name: Web passage
-  description: Make a web-passable tile only spiders can cross.
+  name: Веб-проход
+  description: Создайте плитку, через которую смогут пролезть только пауки.
   components:
   - type: Action
     icon: { sprite: _Slon/Objects/Fun/SpecialSpiders/specialweb.rsi, state: webpassage }

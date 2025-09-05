@@ -1,7 +1,7 @@
 - type: entity
   id: MobMaintSpider
-  name: maintenance spider
-  description: Widely recognized to be the literal worst thing in existence, but not quite.
+  name: паук техтунелей
+  description: Широко признано, что это буквально худшее, что может быть на свете, но это не совсем так.
   suffix: AI, Grown
   parent: MobSpiderBase
   components:
@@ -59,12 +59,12 @@
         reagents:
         - ReagentId: ChloralHydrate # to compensate for the low damage
           Quantity: 50 # 5u, the space spider value halved
-  - type: LanguageKnowledge # Einstein Engines - Language
-    speaks:
-    - Xeno
-    understands:
-    - TauCetiBasic # "Hos ive got you a new shiva!" also they are not evil by default so they could be pets
-    - Xeno
+  #- type: LanguageKnowledge # Einstein Engines - Language
+    # speaks:
+    # - Xeno
+    # understands:
+    # - TauCetiBasic # "Hos ive got you a new shiva!" also they are not evil by default so they could be pets
+    # - Xeno
   - type: EggLayer
     eggSpawn:
     - id: EggMaintSpiderFertilized
@@ -86,8 +86,8 @@
 - type: entity
   id: MobMaintSpiderling
   parent: MobSpiderBase
-  name: spiderling
-  description: Look at this cutie!
+  name: паучок
+  description: Посмотрите на эту милашку!
   components:
   - type: MobThresholds
     thresholds:

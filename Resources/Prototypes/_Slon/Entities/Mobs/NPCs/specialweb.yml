@@ -1,7 +1,7 @@
 - type: entity
   id: SpiderWebPassage
-  name: dense web
-  description: It's stringy, sticky and dense.
+  name: плотная паутина
+  description: Он тягучий, липкий и плотный.
   placement:
     mode: SnapgridCenter
   components:

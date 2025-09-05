@@ -2805,13 +2805,12 @@
   - type: MeleeChemicalInjector
     transferAmount: 0.75
     solution: melee
-  - type: LanguageKnowledge # Einstein Engines - Language
+  #- type: LanguageKnowledge # Einstein Engines - Language
     # once upstream hits (the one that has languages) - uncomment.
     # speaks:
     # - Xeno
     # understands:
     #- Xeno
-    accent: xeno
   - type: InteractionPopup
     successChance: 0.5
     interactSuccessString: petting-success-tarantula

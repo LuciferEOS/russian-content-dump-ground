@@ -1,3 +1,3 @@
-ghost-role-information-maint-spider-name = grown maintanance spider
-ghost-role-information-maint-spider-desc = Eat, grow, create and destroy. You are the true death machine, lay eggs and make more spiders. Use +i to speak with other spiders.
-ghost-role-information-maint-spider-rules = You are a [color={role-type-team-antagonist-color}][bold]{role-type-team-antagonist-name}[/bold][/color], cooperate with all other maintenance spiders to multiply.
+ghost-role-information-maint-spider-name = выращенный паук-подсобник
+ghost-role-information-maint-spider-desc = Ешь, расти, твори и разрушай. Ты — настоящая машина смерти, откладывай яйца и производи ещё больше пауков. Используйте +i, чтобы общаться с другими пауками.
+ghost-role-information-maint-spider-rules = Вы — [color={role-type-team-antagonist-color}][bold]{role-type-team-antagonist-name}[/bold][/color], сотрудничаете со всеми остальными пауками-обслуживателями, чтобы размножаться.
