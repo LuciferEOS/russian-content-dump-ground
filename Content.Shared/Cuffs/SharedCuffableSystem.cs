@@ -469,8 +469,8 @@ namespace Content.Shared.Cuffs
                 _audio.PlayPredicted(component.EndCuffSound, uid, user);
 
                 var popupText = (user == target)
-                    ? "handcuff-component-cuff-self-observer-success-message"
-                    : "handcuff-component-cuff-observer-success-message";
+                    ? Loc.GetString("handcuff-component-cuff-self-observer-success-message") // reserve edit - fix this shit
+                    : Loc.GetString("handcuff-component-cuff-observer-success-message"); // reserve edit - fix this shit
                 _popup.PopupEntity(Loc.GetString(popupText,
                         ("user", Identity.Name(user, EntityManager)), ("target", Identity.Name(target, EntityManager))),
                     target, Filter.Pvs(target, entityManager: EntityManager)
