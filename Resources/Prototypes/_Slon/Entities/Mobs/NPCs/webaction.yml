@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2025 LuciferEOS <stepanteliatnik2022@gmail.com>
+# SPDX-FileCopyrightText: 2025 ReserveBot <211949879+ReserveBot@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: BaseAction
+  id: ActionWebPassage
+  name: Веб-проход
+  description: Создайте плитку, через которую смогут пролезть только пауки.
+  components:
+  - type: Action
+    icon: { sprite: _Slon/Objects/Fun/SpecialSpiders/specialweb.rsi, state: webpassage }
+  - type: InstantAction
+    event: !type:WebPassageActionEvent
